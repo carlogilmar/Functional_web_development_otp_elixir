@@ -58,4 +58,8 @@ defmodule IslandsEngine.Island do
     MapSet.equal?(island.coodinates, island.hit_coordinates)
   end
 
+  def types() do
+    [:atoll, :dot, :l_shape, :s_shape, :square]
+  end
+
 end
